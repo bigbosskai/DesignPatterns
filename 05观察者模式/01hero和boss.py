@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 
 class AbstractHero(metaclass=ABCMeta):
+    # After receiving the notification, execute update
     @abstractmethod
     def update(self):
         pass

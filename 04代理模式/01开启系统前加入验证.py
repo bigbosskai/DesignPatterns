@@ -12,6 +12,7 @@ class System(AbstractSystem):
         print('系统真的开启')
 
 
+# There is a System instance inside
 class ProxySystem(AbstractSystem):
     def __init__(self, username, passwd):
         self.username = username

@@ -2,6 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 
 class HandleClientProtocol:
+    # Several commands to be executed are encapsulated in protocols
     def addMoney(self):
         print('add money')
 

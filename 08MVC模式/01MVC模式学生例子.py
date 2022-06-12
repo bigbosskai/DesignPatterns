@@ -1,6 +1,6 @@
 class Student:
     """
-    MVC中的m,model层
+    MVC中的m,model层，对数据库中每一行的封装
     """
 
     def __init__(self, name, age):
